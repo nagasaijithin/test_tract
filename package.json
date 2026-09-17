@@ -1,0 +1,19 @@
+{
+  "name": "basic-details-api",
+  "version": "1.0.0",
+  "description": "Node.js Express REST API that returns basic details",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "keywords": ["express", "rest", "api"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
