@@ -8,12 +8,18 @@
     "dev": "node --watch src/index.js",
     "test": "node --test"
   },
-  "keywords": ["express", "rest", "api"],
+  "keywords": [
+    "express",
+    "rest",
+    "api"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "openai": "^7.17.0"
   }
 }
